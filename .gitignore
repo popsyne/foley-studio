@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Generated audio
+backend/outputs/*.wav
+backend/outputs/*.json
+foley_output/
+
+# User config (contains local paths — use config.example.txt as template)
+config.txt
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Model weights — never commit these (multi-GB, licensed separately)
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

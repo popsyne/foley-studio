@@ -1,0 +1,29 @@
+# ═══════════════════════════════════════════════════════════════════
+#  FOLEY STUDIO — Configuration
+# ═══════════════════════════════════════════════════════════════════
+#
+#  Edit the paths below, then save this file.
+#  Lines starting with # are comments and are ignored.
+#
+# ═══════════════════════════════════════════════════════════════════
+
+# Path to your Stable Audio Open 1.0 model file (.safetensors)
+#
+# Download from: https://huggingface.co/stabilityai/stable-audio-open-1.0/resolve/main/model.safetensors
+# If you already have it (e.g. from ComfyUI), just paste the full path here.
+#
+# Examples:
+#   MODEL_PATH = D:\models\stable-audio-open-1.0.safetensors
+#   MODEL_PATH = C:\Users\YourName\Downloads\model.safetensors
+#   MODEL_PATH = D:\ComfyUI\models\checkpoints\stable-audio-open-1.0.safetensors
+#
+MODEL_PATH = 
+
+# Folder where generated sounds are automatically saved
+# Leave blank to use the default (foley_output folder next to the server)
+#
+# Examples:
+#   OUTPUT_DIR = D:\my-sounds\foley
+#   OUTPUT_DIR = C:\Users\YourName\Music\foley-studio
+#
+OUTPUT_DIR = 

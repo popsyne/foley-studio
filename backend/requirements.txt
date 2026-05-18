@@ -1,0 +1,14 @@
+# Core (always needed)
+fastapi
+uvicorn
+numpy
+soundfile
+
+# Real model (Stable Audio Open via stable-audio-tools)
+# These get installed by INSTALL_MODEL.bat
+# torch and torchaudio must be installed separately with CUDA
+stable-audio-tools
+einops
+
+# Optional: AudioSR for 48kHz super-resolution
+# pip install audiosr==0.0.7
