@@ -13,10 +13,9 @@ Runs entirely on your machine. No cloud, no API keys, no subscriptions. Generate
 - **Text-to-sound** — describe a sound, get a clip. 45+ foley presets included.
 - **Instrument one-shots** — 22 instrument presets with note / octave / chord selection.
 - **Parameter Matrix** — batch-render a grid of steps × CFG × sampler combinations to A/B compare, with gapless sequential playback and a highlight on the currently playing pad.
-- **⚡ Corrupt / Pure Chaos** — inject glitch fragments into prompts for unpredictable, texture-rich results. This is a glitch machine as much as a foley tool.
+- **Corrupt / Pure Chaos** — inject glitch fragments into prompts for unpredictable, texture-rich results. This is a glitch machine as much as a foley tool.
 - **AudioSR (optional)** — upscale output to 48 kHz with diffusion-based super-resolution.
 - **Auto-save** — every render lands in your output folder with a descriptive filename and embedded metadata.
-- **Stone-tablet UI** — because why not.
 
 ---
 
